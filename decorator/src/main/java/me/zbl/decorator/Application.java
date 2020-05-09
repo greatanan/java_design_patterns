@@ -41,6 +41,7 @@ public class Application {
     carpenter.chekcAfter();
 
     LOGGER.info("由铁匠完成锤把以及锤头的制作");
+    //这里也就是对CarpenterOperation进行了装饰
     Operation hammerSmith = new HammerSmithOperation(carpenter);
     hammerSmith.checkBefore();
     hammerSmith.join();

@@ -27,7 +27,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 木匠的工作
+ * 木匠的工作 (原先继承的方式实现)
  */
 public class CarpenterOperation implements Operation {
 

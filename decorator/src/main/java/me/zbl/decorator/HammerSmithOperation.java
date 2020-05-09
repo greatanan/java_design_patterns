@@ -32,6 +32,8 @@ import org.slf4j.LoggerFactory;
 public class HammerSmithOperation implements Operation {
 
   private static final Logger LOGGER = LoggerFactory.getLogger(HammerSmithOperation.class);
+
+  //被装饰者
   private Operation previousOperation;
 
   public HammerSmithOperation(Operation previousOperation) {
